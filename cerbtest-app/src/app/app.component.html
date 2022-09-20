@@ -1,0 +1,28 @@
+<!-- Run this code with localhost:8080 to avoid CORS issue. 8080 has been configured on web api for CORS -->
+<b>Customers (Users)</b>
+<ag-grid-angular 
+    style="width: 1200px; height: 500px;" 
+    class="ag-theme-alpine"
+    [rowData]="custRowData$ | async"
+    [columnDefs]="custColumnDefs"
+    [gridOptions]="gridOptions">
+</ag-grid-angular>
+<br>
+<b>Orders</b>
+<ag-grid-angular 
+    style="width: 1200px; height: 500px;" 
+    class="ag-theme-alpine"
+    [rowData]="ordRowData$ | async"
+    [columnDefs]="ordColumnDefs"
+    [gridOptions]="gridOptions">
+</ag-grid-angular>
+<br>
+<b>Customer And Their Orders</b>
+<ag-grid-angular 
+    style="width: 1200px; height: 500px;" 
+    class="ag-theme-alpine"
+    [rowData]="custordRowData$ | async"
+    [columnDefs]="custordColumnDefs"
+    [gridOptions]="gridOptions">
+</ag-grid-angular>
+

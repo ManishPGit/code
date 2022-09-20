@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kb20OpXZZXPibggpq5r0usCDfkdsxc98cdF7kJy4QW8=",
+  "Source": "cerbtestapi",
+  "BasePath": "_content/cerbtestapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
